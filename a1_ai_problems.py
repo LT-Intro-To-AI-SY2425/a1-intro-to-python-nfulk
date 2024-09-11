@@ -17,3 +17,10 @@ assert fizbuzz(5) == "Buzz", "fizzbuzz 5 test"
 assert fizbuzz(6) == "Fizz", "fizzbuzz 6 test"
 assert fizbuzz(15) == "FizzBuzz", "fizzbuzz 15 test"
 
+def fibonacc_iterative(n):
+    fib_sequence = []
+    a, b = 0, 1
+    while len(fib_sequence) < n
+        fib_sequence.append(a)
+        a, b = b, a + b
+    return fib_sequence
