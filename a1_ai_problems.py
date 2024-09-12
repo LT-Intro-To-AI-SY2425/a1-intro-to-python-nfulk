@@ -23,4 +23,6 @@ def fibonacci_iterative(n):
     while len(fib_sequence) < n:
         fib_sequence.append(a)
         a, b = b, a + b
-    return fib_sequence
+
+def is_palindrome(s):
+    
