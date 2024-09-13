@@ -23,6 +23,27 @@ def fibonacci_iterative(n):
     while len(fib_sequence) < n:
         fib_sequence.append(a)
         a, b = b, a + b
+assert fibonacci_iterative(0) == 0, "true"
+assert fibonacci_iterative(1) == 1, "true" 
 
 def is_palindrome(s):
-    
+    s = s.lower()
+    return s == s[::-1]
+assert is_palindrome("racecar") == True, "true"
+assert is_palindrome("python") == False, "false"
+
+def is_prime(n):
+    if n <= 1:
+        return False
+    if n<= 3:
+        return True
+    if n%2 == 0 or n%3 == 0:
+        return False
+    i = 5
+    while i * i<= n:
+        if n%i == 0 or n%(i+2) == 0:
+            return False
+        i+= 6
+    return True
+assert is_prime(2) == True, "test 1 failed"
+assert is_prime(4) == False, "test 2 failed"
