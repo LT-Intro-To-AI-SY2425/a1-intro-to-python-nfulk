@@ -47,3 +47,17 @@ def is_prime(n):
     return True
 assert is_prime(2) == True, "test 1 failed"
 assert is_prime(4) == False, "test 2 failed"
+
+def calculator(a, b, operator):
+    if operator == "+":
+        return a + b
+    elif operator == "-":
+        return a - b
+    elif operator == "*":
+        return a * b
+    elif operator =="/":
+        return a / b
+assert calculator(5, 3, "+") == 8, "addition succesful"
+assert calculator(5, 3, "-") == 2, "subtraction succesful"
+assert calculator(5, 3, "*") == 15, "multiplication succesful"
+assert calculator(6, 3, "/") == 2, "division succesful"
