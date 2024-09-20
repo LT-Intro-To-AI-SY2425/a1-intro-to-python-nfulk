@@ -12,12 +12,12 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 
 ## Reflection Questions
 
-1. What is your initial thoughts about the python programming language?
+1. What is your initial thoughts about the python programming language?  I think it is easier in some ways than javascript which I used last year. However I have struggled a bit with learning it and need more practice with it.
 
 
 
-2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
+2. Describe some similarities and differences that you found between python and other programming languages you have used in the past? A lot of things are similar such as while loops, for loops, and if, else if, else statements. However, I have found differences in the structures and making variables which is so much easier than javascript.
 
 
 
-3. What are some things that you learned through this assignment?
+3. What are some things that you learned through this assignment? I learned everything we did as I had no prior knowledge to the python coding language which meant everything was new to me.
